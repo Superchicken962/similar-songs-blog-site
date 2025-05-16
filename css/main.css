@@ -70,3 +70,15 @@ body {
     border-left: 4px solid rgb(55, 255, 30);
     color: rgb(30, 90, 25);
 }
+
+/* Footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    color: grey;
+    border-top: 1px solid grey;
+    padding-top: 10px;
+    text-align: center;
+}
