@@ -1,7 +1,7 @@
 const messageBox = document.querySelector(".messageDisplay");
 
 async function loadData() {
-    const req = await fetch("/songs.json");
+    const req = await fetch("songs.json");
     let data;
 
     try {
