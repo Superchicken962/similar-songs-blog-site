@@ -20,7 +20,7 @@ async function loadData() {
         return;
     }
 
-    const songsContainer = document.querySelector(".songs");
+    const songsContainer = document.querySelector(".songComparisonContainer");
 
     for (const comparison of comparisons) {
         const { songA: songA_, songB: songB_, description } = comparison;

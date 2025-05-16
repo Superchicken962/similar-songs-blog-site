@@ -3,19 +3,46 @@
         "id": 0,
         "name": "Clocks",
         "author": "Coldplay",
+        "album": "A Rush of Blood to the Head",
         "duration": 308,
         "release": {
             "year": 2002,
             "month": 8
         }
     },
+
     {
         "id": 1,
         "name": "A Lot Like Me",
         "author": "The Offspring",
+        "album": "Rise And Fall, Rage And Grace",
         "duration": 268,
         "release": {
             "year": 2008,
+            "month": 6
+        }
+    },
+
+    {
+        "id": 2,
+        "name": "Times Like These",
+        "author": "Foo Fighters",
+        "album": "One By One",
+        "duration": 268,
+        "release": {
+            "year": 2002,
+            "month": 10
+        }
+    },
+
+    {
+        "id": 3,
+        "name": "Days Go By",
+        "author": "The Offspring",
+        "album": "Days Go By",
+        "duration": 241,
+        "release": {
+            "year": 2012,
             "month": 6
         }
     }

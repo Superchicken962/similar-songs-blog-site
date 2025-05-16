@@ -84,6 +84,10 @@ footer {
 }
 
 /* Song comparisons */
+.songComparisonContainer {
+    display: block;
+}
+
 .songComparison {
     display: grid;
     margin: auto;
@@ -95,9 +99,11 @@ footer {
     background-color: rgb(150,150,150);
     padding: 4px;
     border-radius: 4px;
-    
+
     column-gap: 5px;
     row-gap: 5px;
+
+    margin-bottom: 25px;
 }
 
 .songComparison .song {

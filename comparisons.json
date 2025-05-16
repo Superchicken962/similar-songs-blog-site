@@ -9,5 +9,17 @@
             "startAt": 0
         },
         "description": "Ironically, like the name itself, The Offspring's \"A Lot Like Me\" sounds <i>a lot</i> like Coldplay's \"Clocks.\" From the beginning of the song, you can almost immediately recognise the beat."
+    },
+
+    {
+        "songA": {
+            "id": 2,
+            "startAt": 0
+        },
+        "songB": {
+            "id": 3,
+            "startAt": 0
+        },
+        "description": "This song of The Offspring used to be one I listened to alot - mostly because I listened to the album. Fast forward to now, as a fan of Foo Fighters, I cannot help but think that Times Like These was an inspiration for the song. Like, just listen to the intros!. They are extremely similar, hell, try singing the lyrics from Times Like These along to Days Go By!"
     }
 ]

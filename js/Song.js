@@ -1,7 +1,8 @@
 class Song {
-    constructor(name, author, duration, releaseYear, releaseMonth) {
+    constructor(name, author, album, duration, releaseYear, releaseMonth) {
         this.name = name;
         this.author = author;
+        this.album = album;
         this.duration = duration;
         this.release = {
             year: releaseYear,
@@ -15,7 +16,7 @@ class Song {
      * @param { Object } obj 
      */
     static fromObj(obj) {
-        return new Song(obj.name, obj.author, obj.duration, obj.release?.year, obj.release?.month);
+        return new Song(obj.name, obj.author, obj.album, obj.duration, obj.release?.year, obj.release?.month);
     }
 
     formatDuration() {
