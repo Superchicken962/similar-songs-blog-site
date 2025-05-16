@@ -21,5 +21,17 @@
             "startAt": 0
         },
         "description": "This song of The Offspring used to be one I listened to alot - mostly because I listened to the album. Fast forward to now, as a fan of Foo Fighters, I cannot help but think that Times Like These was an inspiration for the song. Like, just listen to the intros!. They are extremely similar, hell, try singing the lyrics from Times Like These along to Days Go By!"
+    },
+
+    {
+        "songA": {
+            "id": 5,
+            "startAt": 0
+        },
+        "songB": {
+            "id": 4,
+            "startAt": 0
+        },
+        "description": "The Offspring is a great band, and have released some great tracks! However, as time goes on it seems their songs become more bland or derivative of their old hits. An example of this is with these two songs, with the more recent song sounding very alike to the one from over 20 years prior. Every time I try to listen to The Opioid Diaries, I almost just start singing the lyrics from Way Down The Line! It's really unfortunate to hear songs that just sound like older ones, because it just feels lazy and the song has nothing of note to remember, except the fact it sounds like an older one."
     }
 ]

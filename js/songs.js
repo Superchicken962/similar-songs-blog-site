@@ -1,8 +1,9 @@
 const messageBox = document.querySelector(".messageDisplay");
 
 async function loadData() {
-    const reqSongs = await fetch("songs.json");
-    const reqComparisons = await fetch("comparisons.json");
+    // Ensure we don't get the cached versions of the files.
+    const reqSongs = await fetch("songs.json", { cache: "no-cache" });
+    const reqComparisons = await fetch("comparisons.json", { cache: "no-cache" });
     let songs;
     let comparisons;
 
@@ -59,9 +60,6 @@ async function loadData() {
  * @returns { HTMLElement }
  */
 function buildComparisonElement(songA, songB, info) {
-    console.log(songA);
-    console.log(songB);
-
     const element = document.createElement("div");
     element.className = "songComparison";
 
