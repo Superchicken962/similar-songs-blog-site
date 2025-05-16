@@ -1,1 +1,22 @@
-[]
+[
+    {
+        "id": 0,
+        "name": "Clocks",
+        "author": "Coldplay",
+        "duration": 308,
+        "release": {
+            "year": 2002,
+            "month": 8
+        }
+    },
+    {
+        "id": 1,
+        "name": "A Lot Like Me",
+        "author": "The Offspring",
+        "duration": 268,
+        "release": {
+            "year": 2008,
+            "month": 6
+        }
+    }
+]

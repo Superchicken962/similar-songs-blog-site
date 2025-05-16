@@ -82,3 +82,46 @@ footer {
     padding-top: 10px;
     text-align: center;
 }
+
+/* Song comparisons */
+.songComparison {
+    display: grid;
+    margin: auto;
+    grid-template-areas: 
+        'songA songA songB songB'
+        'details details details details';
+    grid-template-columns: auto auto auto auto;
+
+    background-color: rgb(150,150,150);
+    padding: 4px;
+    border-radius: 4px;
+    
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.songComparison .song {
+    background-color: rgb(200,200,200);
+    padding: 4px 12px;
+    border-radius: 5px;
+}
+
+.songComparison .song.first {
+    display: block;
+    position: relative;
+    grid-area: songA;
+}
+.songComparison .song.second {
+    display: block;
+    position: relative;
+    grid-area: songB;
+}
+
+.songComparison .details {
+    background-color: rgb(200,200,200);
+    padding: 4px 12px;
+    border-radius: 5px;
+
+    position: relative;
+    grid-area: details;
+}
