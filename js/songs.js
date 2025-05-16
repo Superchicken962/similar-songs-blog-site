@@ -24,7 +24,7 @@ async function loadData() {
     const songsContainer = document.querySelector(".songComparisonContainer");
 
     for (const comparison of comparisons) {
-        const { songA: songA_, songB: songB_, description } = comparison;
+        const { songA: songA_, songB: songB_, description, similarity } = comparison;
 
         const times = {
             songA: {
@@ -46,7 +46,7 @@ async function loadData() {
         const songA = Song.fromObj(findSongA);
         const songB = Song.fromObj(findSongB);
 
-        const element = buildComparisonElement(songA, songB, { times, description });
+        const element = buildComparisonElement(songA, songB, { times, description, similarity });
 
         songsContainer.appendChild(element);
     }
@@ -78,6 +78,12 @@ function buildComparisonElement(songA, songB, info) {
 
         <div class="details">
             <p class="description">${info.description}</p>
+
+            <div class="similarity">
+                Similarity:     
+                <div class="similarityBar"><div class="bar" style="width:${info.similarity}%;"></div></div>
+                ${info.similarity}%
+            </div>
         </div>
     `;
 

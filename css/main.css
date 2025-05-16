@@ -82,6 +82,9 @@ footer {
     padding-top: 10px;
     text-align: center;
 }
+footer.no-lock {
+    position: static;
+}
 
 /* Song comparisons */
 .songComparisonContainer {
@@ -130,4 +133,17 @@ footer {
 
     position: relative;
     grid-area: details;
+}
+
+.songComparison .similarityBar {
+    display: inline-block;
+    background-color: rgb(50,50,50);
+    width: 100px;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.songComparison .similarityBar .bar {
+    background-color: green;
+    height: 100%;
 }
