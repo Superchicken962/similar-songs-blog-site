@@ -69,5 +69,53 @@
             "year": 1997,
             "month": 2
         }
+    },
+
+    {
+        "id": 6,
+        "name": "Self Esteem",
+        "author": "The Offspring",
+        "album": "Smash",
+        "duration": 257,
+        "release": {
+            "year": 1994,
+            "month": 4
+        }
+    },
+
+    {
+        "id": 7,
+        "name": "Smells Like Teen Spirit",
+        "author": "Nirvana",
+        "album": "Nevermind",
+        "duration": 301,
+        "release": {
+            "year": 1991,
+            "month": 9
+        }
+    },
+
+    {
+        "id": 8,
+        "name": "Caution",
+        "author": "The Killers",
+        "album": "Imploding The Mirage",
+        "duration": 269,
+        "release": {
+            "year": 2020,
+            "month": 8
+        }
+    },
+
+    {
+        "id": 9,
+        "name": "The Fall Guy",
+        "author": "The Offspring",
+        "album": "SUPERCHARGED",
+        "duration": 154,
+        "release": {
+            "year": 2024,
+            "month": 10
+        }
     }
 ]

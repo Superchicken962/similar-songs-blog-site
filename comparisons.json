@@ -36,5 +36,31 @@
         },
         "similarity": 70,
         "description": "The Offspring is a great band, and have released some great tracks! However, as time goes on it seems their songs become more bland or derivative of their old hits. An example of this is with these two songs, with the more recent song sounding very alike to the one from over 20 years prior. Every time I try to listen to The Opioid Diaries, I almost just start singing the lyrics from Way Down The Line! It's really unfortunate to hear songs that just sound like older ones, because it just feels lazy and the song has nothing of note to remember, except the fact it sounds like an older one."
+    },
+
+    {
+        "songA": {
+            "id": 7,
+            "startAt": 0
+        },
+        "songB": {
+            "id": 6,
+            "startAt": 0
+        },
+        "similarity": 15,
+        "description": "Two great songs, both from the 90s. There is not much to say about these two songs, the only real similarities is in the general riff at the start and perhaps a little throughout the song. It is most noticable at the start where both songs use a very similiar riff, but afterwards they do their own thing."
+    },
+
+    {
+        "songA": {
+            "id": 8,
+            "startAt": 0
+        },
+        "songB": {
+            "id": 9,
+            "startAt": 0
+        },
+        "similarity": 5,
+        "description": "There is just something about The Fall Guy, it just feels like I've heard it somewhere before but I can't put my finger on it. The closest I have found so far, is Caution, by The Killers. Released 4 years beforehand, the chorus sounds sort of similar in it's beat, but this could just be similarities in the genre."
     }
 ]
